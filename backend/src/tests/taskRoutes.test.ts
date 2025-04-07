@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import request from 'supertest';
-import taskRoutes from '../src/routes/taskRoutes';
-import * as lambdaService from '../src/services/lambdaService';
+import taskRoutes from '../routes/taskRoutes';
+import * as lambdaService from '../services/lambdaService';
 
 // mock service
 jest.mock('../src/services/lambdaService');
