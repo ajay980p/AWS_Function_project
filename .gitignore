@@ -1,0 +1,47 @@
+# Global dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Vite & CRA caches
+.vite/
+.cache/
+.temp/
+out/
+.next/
+
+# Environment variables (never push these!)
+.env
+.env.*
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage/test output
+coverage/
+.nyc_output/
+test-results/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Lambda artifacts (if any)
+*.lambda.js
+lambda.zip
